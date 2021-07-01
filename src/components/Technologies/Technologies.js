@@ -26,25 +26,25 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiZend size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          < DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
