@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
           Hello , My name is Vishnu Priy Agnihotri . I am a fourth year Computer Science undergraduate at NIT Uttarakhand with an interest in Web Development and Flutter Android App Development.
         </SectionText>
-        <Button onClick={props.handleClick}>Resume</Button>
+        <Button onClick={() => window.location = 'https://github.com/iamvpa/vpa/blob/main/vpaResumeV3.pdf'}>Resume</Button>
       </LeftSection>
     </Section>
   </>
