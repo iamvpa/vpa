@@ -3,13 +3,18 @@ import React from 'react'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container } from './LayoutStyles'
+import Head from "next/head"
 
-export const Layout = ({children}) => {
+export const Layout = ({ children }) => {
   return (
+
     <Container>
-     <Header/>
-     <main>{children}</main> 
-     <Footer/>
+      <Head>
+        <title>Vishnu Priy Agnihotri</title>
+      </Head>
+      <Header />
+      <main>{children}</main>
+      <Footer />
     </Container>
   )
 }
